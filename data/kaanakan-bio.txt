@@ -1,0 +1,5 @@
+Kaan Akan is a PhD student at Computer Science Department, Koc University.
+He received his Master's degree in computer science from Koc University.
+He received his Bachelor's degree in computer science from Middle East Technical University, Turkey. 
+His research interests include machine learning and computer vision 
+with special interest in temporal action detection, video understanding, stochastic video prediction, video object detection and tracking.
