@@ -129,3 +129,42 @@ name {
 span.highlight {
   background-color: #ffffd0;
 }
+
+/* Responsive layout for small screens (phones) */
+@media screen and (max-width: 600px) {
+  /* Let every table fill the viewport */
+  table {
+    width: 100% !important;
+    max-width: 100% !important;
+  }
+
+  /* Stack the two-column rows (bio/photo and each paper) vertically */
+  td {
+    display: block !important;
+    width: 100% !important;
+    box-sizing: border-box;
+  }
+
+  /* Center media and let it shrink gracefully without upscaling */
+  td img,
+  td video {
+    display: block;
+    margin: 0 auto 12px auto;
+    max-width: 100% !important;
+    height: auto !important;
+  }
+
+  /* Keep the profile photo at a sensible size */
+  img.hoverZoomLink {
+    width: 100% !important;
+    max-width: 240px !important;
+  }
+
+  name {
+    font-size: 26px;
+  }
+
+  heading {
+    font-size: 20px;
+  }
+}

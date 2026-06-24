@@ -117,7 +117,7 @@
                 I completed my PhD at 
                 <a target="_blank" rel="noopener noreferrer" href="https://cs.ku.edu.tr">Koç University</a> 
                 under the supervision of 
-                <a target="_blank" rel="noopener noreferrer" href="https://home.ku.edu.tr/~yyemez/">Prof. Yücel Yemez</a>, 
+                <a target="_blank" rel="noopener noreferrer" href="https://mysite.ku.edu.tr/yyemez/">Prof. Yücel Yemez</a>,
                 focusing on object-centric learning and compositional image and video generation 
                 (<a target="_blank" rel="noopener noreferrer" href="https://arxiv.org/abs/2509.24652">PhD Thesis</a>). 
               </p>
@@ -157,6 +157,74 @@
 
           <tr>
             <td style="padding:20px;width:25%;vertical-align:middle">
+              <img src="images/eps.jpg" alt="EPS" height="120"  width="200" style="border-style: none" loading="lazy">
+            </td>
+            <td width="75%" valign="middle">
+              <a target="_blank" rel="noopener noreferrer" href="https://arxiv.org/abs/2606.17048" id="MCG_journal">
+                <papertitle>Exact Posterior Score Estimation for Solving Linear Inverse Problems</papertitle>
+              </a>
+              <br>
+              Abbas Mammadov, Ozgur Kara, <a target="_blank" rel="noopener noreferrer" href="https://kaanoktay.github.io/">Kaan Oktay</a>, Iskander Azangulov, <strong>Adil Kaan Akan</strong>, Hyungjin Chung, James Matthew Rehg, Yee Whye Teh
+              <br>
+              <em>arXiv preprint</em>, 2026
+              <br>
+              <a target="_blank" rel="noopener noreferrer" href="https://arxiv.org/abs/2606.17048">Preprint</a> /
+              <a target="_blank" rel="noopener noreferrer" href="https://abbasmammadov.github.io/EPS/">Project Website</a> /
+              <a target="_blank" rel="noopener noreferrer" href="https://github.com/abbasmammadov/EPS">Code</a> /
+              <a target="_blank" rel="noopener noreferrer" href="data/eps.bib">bibtex</a>
+              <p></p>
+              <p>We derive the exact posterior score in closed form for linear Gaussian inverse problems and turn it into EPS, a denoising training objective that preserves the input/output structure of standard pretraining. At inference, EPS reuses the backbone's sampler with no likelihood gradients or projections, outperforming training-free and training-based baselines while using roughly an order of magnitude fewer denoiser evaluations.</p>
+            </td>
+          </tr>
+
+          <tr>
+            <td style="padding:20px;width:25%;vertical-align:middle">
+              <video class="preview" width="200" height="auto" autoplay loop muted playsinline style="border-style: none">
+                <source src="images/videomla.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+              </video>
+            </td>
+            <td width="75%" valign="middle">
+              <a target="_blank" rel="noopener noreferrer" href="https://arxiv.org/abs/2605.30351" id="MCG_journal">
+                <papertitle>VideoMLA: Low-Rank Latent KV Cache for Minute-Scale Autoregressive Video Diffusion</papertitle>
+              </a>
+              <br>
+              <a target="_blank" rel="noopener noreferrer" href="https://yesiltepe-hidir.github.io/">Hidir Yesiltepe</a>, Jiazhen Hu, <a target="_blank" rel="noopener noreferrer" href="https://tmeral.com/">Tuna Han Salih Meral</a>, <strong>Adil Kaan Akan</strong>, <a target="_blank" rel="noopener noreferrer" href="https://kaanoktay.github.io/">Kaan Oktay</a>, Hoda Eldardiry, <a target="_blank" rel="noopener noreferrer" href="https://pinguar.org/">Pinar Yanardag</a>
+              <br>
+              <em>arXiv preprint</em>, 2026
+              <br>
+              <a target="_blank" rel="noopener noreferrer" href="https://arxiv.org/abs/2605.30351">Preprint</a> /
+              <a target="_blank" rel="noopener noreferrer" href="https://videomla.github.io/">Project Website</a> /
+              <a target="_blank" rel="noopener noreferrer" href="https://github.com/yesiltepe-hidir/VideoMLA">Code</a> /
+              <a target="_blank" rel="noopener noreferrer" href="data/videomla.bib">bibtex</a>
+              <p></p>
+              <p>We present the first study of Multi-Head Latent Attention (MLA) in video diffusion. VideoMLA replaces per-head keys and values with a shared low-rank content latent and a decoupled 3D-RoPE positional key, cutting per-token KV memory by 92.7% at every cached layer. On VBench it matches short-horizon streaming baselines, achieves the best overall score at long horizons among evaluated methods, and improves throughput by 1.23x.</p>
+            </td>
+          </tr>
+
+          <tr>
+            <td style="padding:20px;width:25%;vertical-align:middle">
+              <img src="images/aligning.jpg" alt="SphericalFlowMatching" height="120"  width="200" style="border-style: none" loading="lazy">
+            </td>
+            <td width="75%" valign="middle">
+              <a target="_blank" rel="noopener noreferrer" href="https://arxiv.org/abs/2605.15193" id="MCG_journal">
+                <papertitle>Aligning Latent Geometry for Spherical Flow Matching in Image Generation</papertitle>
+              </a>
+              <br>
+              <a target="_blank" rel="noopener noreferrer" href="https://tmeral.com/">Tuna Han Salih Meral</a>, <a target="_blank" rel="noopener noreferrer" href="https://kaanoktay.github.io/">Kaan Oktay</a>, <a target="_blank" rel="noopener noreferrer" href="https://yesiltepe-hidir.github.io/">Hidir Yesiltepe</a>, <strong>Adil Kaan Akan</strong>, <a target="_blank" rel="noopener noreferrer" href="https://pinguar.org/">Pinar Yanardag</a>
+              <br>
+              <em>arXiv preprint</em>, 2026
+              <br>
+              <a target="_blank" rel="noopener noreferrer" href="https://arxiv.org/abs/2605.15193">Preprint</a> /
+              <a target="_blank" rel="noopener noreferrer" href="https://aligning-latent-geometry.github.io/">Project Website</a> /
+              <a target="_blank" rel="noopener noreferrer" href="data/aligning.bib">bibtex</a>
+              <p></p>
+              <p>We show that VAE latents and Gaussian noise both concentrate on thin spherical shells, where decoded content is carried predominantly by direction rather than radius. By projecting latents onto a fixed token radius and replacing linear interpolation with spherical interpolation, our geodesic flow-matching paths stay on the sphere at every timestep and consistently improve class-conditional ImageNet-256 FID without changing the diffusion architecture.</p>
+            </td>
+          </tr>
+
+          <tr>
+            <td style="padding:20px;width:25%;vertical-align:middle">
               <video class="preview" width="200" height="auto" autoplay loop muted playsinline style="border-style: none">
                 <source src="images/Infinity-RoPE-teaser_trimmed.mp4" type="video/mp4">
                 Your browser does not support the video tag.
@@ -169,10 +237,11 @@
               <br>
               <a target="_blank" rel="noopener noreferrer" href="https://yesiltepe-hidir.github.io/">Hidir Yesiltepe</a>, <a target="_blank" rel="noopener noreferrer" href="https://tmeral.com/">Tuna Han Salih Meral</a>, <strong>Adil Kaan Akan</strong>, <a target="_blank" rel="noopener noreferrer" href="https://kaanoktay.github.io/">Kaan Oktay</a>, <a target="_blank" rel="noopener noreferrer" href="https://pinguar.org/">Pinar Yanardag</a>
               <br>
-              <em>arXiv preprint</em>, 2025
+              <em>CVPR</em> 2026
               <br>
               <a target="_blank" rel="noopener noreferrer" href="https://arxiv.org/abs/2511.20649">Preprint</a> /
               <a target="_blank" rel="noopener noreferrer" href="https://infinity-rope.github.io/">Project Website</a> /
+              <a target="_blank" rel="noopener noreferrer" href="https://github.com/yesiltepe-hidir/infinity-rope">Code</a> /
               <a target="_blank" rel="noopener noreferrer" href="data/infinityrope.bib">bibtex</a>
               <p></p>
               <p>∞-RoPE enables infinite-horizon, action-controllable video generation through Block-Relativistic RoPE, KV Flush, and RoPE Cut—training-free techniques that overcome temporal horizon limits, enable fine-grained action control, and support cinematic scene transitions within a single autoregressive rollout.
@@ -438,11 +507,29 @@
   <script>
     // BibTeX data embedded directly
     const bibtexData = {
-      'data/infinityrope.bib': `@article{Yesiltepe2025InfinityRoPE,
+      'data/eps.bib': `@article{Mammadov2026EPS,
+  title={Exact Posterior Score Estimation for Solving Linear Inverse Problems},
+  author={Mammadov, Abbas and Kara, Ozgur and Oktay, Kaan and Azangulov, Iskander and Akan, Adil Kaan and Chung, Hyungjin and Rehg, James Matthew and Teh, Yee Whye},
+  journal={arXiv preprint arXiv:2606.17048},
+  year={2026}
+}`,
+      'data/videomla.bib': `@article{Yesiltepe2026VideoMLA,
+  title={VideoMLA: Low-Rank Latent KV Cache for Minute-Scale Autoregressive Video Diffusion},
+  author={Yesiltepe, Hidir and Hu, Jiazhen and Meral, Tuna Han Salih and Akan, Adil Kaan and Oktay, Kaan and Eldardiry, Hoda and Yanardag, Pinar},
+  journal={arXiv preprint arXiv:2605.30351},
+  year={2026}
+}`,
+      'data/aligning.bib': `@article{Meral2026Aligning,
+  title={Aligning Latent Geometry for Spherical Flow Matching in Image Generation},
+  author={Meral, Tuna Han Salih and Oktay, Kaan and Yesiltepe, Hidir and Akan, Adil Kaan and Yanardag, Pinar},
+  journal={arXiv preprint arXiv:2605.15193},
+  year={2026}
+}`,
+      'data/infinityrope.bib': `@InProceedings{Yesiltepe2026InfinityRoPE,
   title={Infinity-RoPE: Action-Controllable Infinite Video Generation Emerges From Autoregressive Self-Rollout},
   author={Yesiltepe, Hidir and Meral, Tuna Han Salih and Akan, Adil Kaan and Oktay, Kaan and Yanardag, Pinar},
-  journal={arXiv preprint arXiv:2511.20649},
-  year={2025}
+  booktitle={Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)},
+  year={2026}
 }`,
       'data/video.bib': `@article{Akan2025TPAMI,
   title={Compositional Video Synthesis by Temporal Object-Centric Learning},
